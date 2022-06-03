@@ -1,0 +1,290 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- ----------------SEO-Optimization---------------- -->
+    <meta name=“description” content="Logo Genius, a Dallas graphic designer in Dallas, Texas.  Offer logo, SEO, social media management, Dallas web design, and web development." />
+    <meta name="keywords" content="Logo Genius, Logo, Genius, Graphic Design, Web Design">
+    <meta name="author" content="Logo Genius">
+    <!-- Google Site Verification -->
+    <meta name="google-site-verification" content="DogpcsIsv8MfOJNDSMVMBvUm1QvIUQ4CYFODmIn3haI"/>
+    <!-- ----------------SEO-Optimization---------------- -->
+
+    <title>Jaylin's Portfolio</title>
+    <!-- Google Fonts -->
+    <!-- Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <!-- Google Material Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b1974bca5b.js" crossorigin="anonymous"></script>
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/components.css">
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    
+<!-- Header Section -->
+<header class="header" id="header">
+    <div class="container">
+        <div class="header-box">
+            <div class="header-titles">
+                <div class="header-item">
+                    <h4>Born In</h4>
+                    <h5>Seattle, WA</h5>
+                </div>
+                <div class="header-item">
+                    <h4>Experience</h4>
+                    <h5>3+ Years</h5>
+                </div>
+                <div class="header-item">
+                    <h4>Industry</h4>
+                    <h5>Graphic Designer</h5>
+                </div>
+            </div>
+            <div class="header-contact">
+                <h4>Got a project?</h4>
+                <a href="#">Let's talk &#8594;</a>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!-- Bar -->
+<div class="bar">
+    <div class="bar__content u-centered">
+        <img class="bar__logo" src="img/JB Logo-01.png" alt="logo image">
+        <input type="checkbox" id="inpNavToggle">
+        <label class="bar__nav-toggle" for="inpNavToggle">
+            <i class="material-icons">menu</i>
+        </label>
+        <nav class="nav">
+            <!-- <a class="nav__link" href="#header">Home</a> -->
+            <a class="nav__link" href="#pricing">Work</a>
+            <a class="nav__link" href="#services">Projects</a>
+            <a class="nav__link" href="#about">About</a>
+            <a href="#" class="btn-black">Contact &#8594;</a>
+            <!-- <a class="btn-black" href="web.html">Web Design &#8594;</a> -->
+        </nav>
+    </div>
+</div>
+
+<!-- Header Javascript -->
+<script>
+    document.addEventListener("DOMContentLoaded", () => {
+        const observer = new IntersectionObserver(entries => {
+            document.querySelector(".bar").classList.toggle("bar--bg", entries[0].intersectionRatio < 1)
+        }, {
+            threshold: 0.1
+        });
+        
+        observer.observe(document.querySelector(".header"));
+    });
+    </script>
+
+
+    <!-- About Section --> 
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-title">
+                <h4>About</h4>
+                <h2>I'm a Graphic Designer based in <br> Dallas, Texas</h2>
+            </div>
+            <div class="about-box">
+                <div class="about-item">
+                    <img src="/img/Star-icons-01.png" alt="">
+                    <p>Brand Design</p>
+                </div>
+                <div class="about-item">
+                    <img src="/img/Star-icons-01.png" alt="">
+                    <p>Web Design</p>
+                </div>
+                <div class="about-item">
+                    <img src="/img/Star-icons-01.png" alt="">
+                    <p>UX|UI Design</p>
+                </div>
+            </div>
+            <div class="about-btn-box">
+                <a href="file:///Users/jaylinbooker7/Downloads/JB%20Resume.pdf" class="btn-black">Download Resume &#8595;</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Info Section -->
+    <section class="info">
+        <div class="container">
+            <div class="info-box">
+                <div class="info-item">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique voluptas adipisci iste at molestias aspernatur quod nam sequi tempore! Deserunt placeat amet nesciunt optio vitae consequuntur hic, minus ducimus. Enim nihil amet dolor quos necessitatibus minima. Sapiente quasi maiores hic!</p>
+                </div>
+                <div class="info-item">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Similique voluptas adipisci iste at molestias aspernatur quod nam sequi tempore! Deserunt placeat amet nesciunt optio vitae consequuntur hic, minus ducimus. Enim nihil amet dolor quos necessitatibus minima. Sapiente quasi maiores hic!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!-- Showcase Section -->
+<section class="showcase">
+        <div class="showcase-box">
+            <div class="showcase-item-1">
+                <h4>Manna Publishing LLC</h4>
+                <h3>Case Study #1</h3>
+                <h5>A Digital Publishing Company</h5>
+                <div class="showcase-btn">
+                    <a href="study.html" class="btn-white-transparent">View Case Study</a>
+                </div>
+            </div>
+            <div class="showcase-item-2">
+                <h4>BST Athletics</h4>
+                <h3>Case Study #2</h3>
+                <h5>Athletic Gym</h5>
+                <div class="showcase-btn">
+                    <a href="study-2.html" class="btn-white-transparent">View Case Study</a>
+                </div>
+            </div>
+            <div class="showcase-item-3">
+                <h4>La Via University</h4>
+                <h3>Case Study #3</h3>
+                <h5>A New Innovative University</h5>
+                <div class="showcase-btn">
+                    <a href="study-3.html" class="btn-white-transparent">View Case Study</a>
+                </div>
+            </div>
+            <div class="showcase-item-4">
+                <h4>Logo Genius</h4>
+                <h3>Case Study #4</h3>
+                <h5>A Graphic Design Company</h5>
+                <div class="showcase-btn">
+                    <a href="study-4.html" class="btn-white-transparent">View Case Study</a>
+                </div>
+            </div>
+        </div>
+</section>
+
+
+
+<!-- Portfolio 1 Section -->
+<section class="portfolio-1"></section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <h2>Services</h2>
+            <h4>What I have to offer</h4>
+            <div class="services-box">
+                <div class="services-item">
+                    <a href="#">Graphic Design</a>
+                </div>
+                <div class="services-item">
+                    <a href="#">Brand Design</a>
+                </div>
+                <div class="services-item">
+                    <a href="#">Web Design</a>
+                </div>
+                <div class="services-item">
+                    <a href="#">UX/UI Design</a>
+                </div>
+            </div>
+            <div class="services-btn">
+                <a href="#" class="btn-white-transparent">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+
+
+ <!-- Newsletter Section -->
+<section class="newsletter" id="newsletter">
+    <div class="container">
+        <div class="newsletter-box">
+            <h2>Subscribe to my newsletter</h2>
+            <div class="newsletter-form">
+                <form name="newsletter" method="POST" data-netlify="true"><input type="hidden" name="form-name" value="newsletter">
+                    <div class="newsletter-item">
+                        <input type="email" name="Email Address" id="" class="input" placeholder="Enter your email address" required>
+                        <input type="submit" value="Subscribe &#8594;" class="btn-submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>   
+
+
+
+
+
+<!-- Contact Section -->
+<section class="contact" id="contact">
+    <div class="container">
+        <div class="contact-box">
+            <h2>Let's discuss something together</h2>
+            <div class="contact-form">
+                <form name="contact" method="POST" data-netlify="true"><input type="hidden" name="form-name" value="contact">
+                    <div class="contact-item">
+                        <input type="name" name="Name" id="" class="input" placeholder="Enter your name" required>
+                    </div>
+                    <div class="contact-item">
+                        <input type="email" name="Email Address" id="" class="input" placeholder="Enter your email address" required>
+                    </div>
+                    <div class="contact-item">
+                        <input type="number" name="Phone Number" id="" class="input" placeholder="Enter your phone number" required>
+                    </div>
+                    <div class="contact-message">
+                        <input type="text" name="Message" id="" class="input" placeholder="Type your message here" required>
+                    </div>
+                    <div class="contact-btn-box">
+                        <input type="submit" value="Submit" class="btn-submit">
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+<section class="footer" id="footer">
+    <div class="container">
+        <div class="footer-box">
+            <div class="footer-box-company">
+                <img src="img/JB Logo-01.png" alt="logo image">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus dicta provident harum optio assumenda, fugiat ullam odit deleniti fuga dolorum architecto iusto totam fugit quas.</p>
+                <p>Copyright © 2022 Jaylin Booker - All rights reserved.</p>
+            </div>
+            <div class="footer-box-links">
+                <h3>Site Map</h3>
+                <ul>
+                    <a href="#header"><li>About Us</li></a>
+                    <a href="#pricing"><li>Our Why</li></a>
+                    <a href="#services"><li>Partners</li></a>
+                    <a href="web.html"><li>Our Goals</li></a>
+                </ul>
+            </div>
+            <div class="footer-box-socials">
+                <h3>Social Media</h3>
+                <a href="https://www.instagram.com/jaylin.booker/" target="_blank"><li><i class="fab fa-instagram"></i></li></a>
+                <a href="https://www.facebook.com/Logogeniuses/" target="_blank"><li><i class="fab fa-facebook-f"></i></li></a>
+                <a href="https://www.linkedin.com/in/jaylinbooker/" target="_blank"><li><i class="fab fa-linkedin-in"></i></li></a>
+            </div>
+            <div class="footer-box-development">
+                <h3>Contact Info</h3>
+                <a href="tel:214-836-5806"><li>(214) 836 - 5806</li></a>
+                <a href="mailto:jaylinbooker@outlook.com"><li>jaylinbooker@outlook.com</li></a>
+                <a href="#" target="_blank"><li>Developed By Me</li></a>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
