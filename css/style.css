@@ -48,8 +48,16 @@ body {
     margin: auto;
 }
 
-.raleway{
+.raleway {
     font-family: 'Raleway', sans-serif;
+}
+
+.teko {
+    font-family: 'Teko', sans-serif;
+}
+
+.josefin {
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 /* ******************************************************** START OF HEADER SECTION ************************************************************ */
@@ -1156,6 +1164,408 @@ body {
     /* background: rgba(0, 0, 0, 0.55);  */
 }
 
+/* Portfolio 18 Section */
+.portfolio-18 {
+    height: 100vh;
+    background: url(/img/Jaylin\ Portfolio\ Images-01.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: var(--bar-height);
+    box-sizing: border-box;
+    background-size: cover;
+    z-index: 4;
+    position: relative;
+}
+
+.portfolio-18::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* background: rgba(0, 0, 0, 0.55);  */
+}
+/* Portfolio 19 Section */
+.portfolio-19 {
+    height: 100vh;
+    background: url(/img/Jaylin\ Portfolio\ Images-02.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: var(--bar-height);
+    box-sizing: border-box;
+    background-size: cover;
+    z-index: 4;
+    position: relative;
+}
+
+.portfolio-19::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* background: rgba(0, 0, 0, 0.55);  */
+}
+/* Portfolio 20 Section */
+.portfolio-20 {
+    height: 100vh;
+    background: url(/img/Jaylin\ Portfolio\ Images-03.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: var(--bar-height);
+    box-sizing: border-box;
+    background-size: cover;
+    z-index: 4;
+    position: relative;
+}
+
+.portfolio-20::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* background: rgba(0, 0, 0, 0.55);  */
+}
+/* Portfolio 21 Section */
+.portfolio-21 {
+    height: 100vh;
+    background: url(/img/Jaylin\ Portfolio\ Images-04.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: var(--bar-height);
+    box-sizing: border-box;
+    background-size: cover;
+    z-index: 4;
+    position: relative;
+}
+
+.portfolio-21::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* background: rgba(0, 0, 0, 0.55);  */
+}
+/* Portfolio 22 Section */
+.portfolio-22 {
+    height: 100vh;
+    background: url(/img/Jaylin\ Portfolio\ Images-05.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: var(--bar-height);
+    box-sizing: border-box;
+    background-size: cover;
+    z-index: 4;
+    position: relative;
+}
+
+.portfolio-22::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* background: rgba(0, 0, 0, 0.55);  */
+}
+/* Portfolio 23 Section */
+.portfolio-23 {
+    height: 100vh;
+    background: url(/img/Jaylin\ Portfolio\ Images-06.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: var(--bar-height);
+    box-sizing: border-box;
+    background-size: cover;
+    z-index: 4;
+    position: relative;
+}
+
+.portfolio-23::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* background: rgba(0, 0, 0, 0.55);  */
+}
+/* Portfolio 24 Section */
+.portfolio-24 {
+    height: 100vh;
+    background: url(/img/Jaylin\ Portfolio\ Images-07.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: var(--bar-height);
+    box-sizing: border-box;
+    background-size: cover;
+    z-index: 4;
+    position: relative;
+}
+
+.portfolio-24::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* background: rgba(0, 0, 0, 0.55);  */
+}
+/* Portfolio 25 Section */
+.portfolio-25 {
+    height: 100vh;
+    background: url(/img/Jaylin\ Portfolio\ Images-08.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: var(--bar-height);
+    box-sizing: border-box;
+    background-size: cover;
+    z-index: 4;
+    position: relative;
+}
+
+.portfolio-25::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* background: rgba(0, 0, 0, 0.55);  */
+}
+/* Portfolio 26 Section */
+.portfolio-26 {
+    height: 100vh;
+    background: url(/img/Jaylin\ Portfolio\ Images\ 2-01.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: var(--bar-height);
+    box-sizing: border-box;
+    background-size: cover;
+    z-index: 4;
+    position: relative;
+}
+
+.portfolio-26::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* background: rgba(0, 0, 0, 0.55);  */
+}
+/* Portfolio 27 Section */
+.portfolio-27 {
+    height: 100vh;
+    background: url(/img/Jaylin\ Portfolio\ Images\ 2-02.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: var(--bar-height);
+    box-sizing: border-box;
+    background-size: cover;
+    z-index: 4;
+    position: relative;
+}
+
+.portfolio-27::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* background: rgba(0, 0, 0, 0.55);  */
+}
+/* Portfolio 28 Section */
+.portfolio-28 {
+    height: 100vh;
+    background: url(/img/Jaylin\ Portfolio\ Images\ 2-03.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: var(--bar-height);
+    box-sizing: border-box;
+    background-size: cover;
+    z-index: 4;
+    position: relative;
+}
+
+.portfolio-28::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* background: rgba(0, 0, 0, 0.55);  */
+}
+/* Portfolio 29 Section */
+.portfolio-29 {
+    height: 100vh;
+    background: url(/img/Jaylin\ Portfolio\ Images\ 2-04.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: var(--bar-height);
+    box-sizing: border-box;
+    background-size: cover;
+    z-index: 4;
+    position: relative;
+}
+
+.portfolio-29::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* background: rgba(0, 0, 0, 0.55);  */
+}
+/* Portfolio 30 Section */
+.portfolio-30 {
+    height: 100vh;
+    background: url(/img/Jaylin\ Portfolio\ Images\ 2-05.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: var(--bar-height);
+    box-sizing: border-box;
+    background-size: cover;
+    z-index: 4;
+    position: relative;
+}
+
+.portfolio-30::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* background: rgba(0, 0, 0, 0.55);  */
+}
+/* Portfolio 31 Section */
+.portfolio-31 {
+    height: 100vh;
+    background: url(/img/Jaylin\ Portfolio\ Images\ 2-06.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: var(--bar-height);
+    box-sizing: border-box;
+    background-size: cover;
+    z-index: 4;
+    position: relative;
+}
+
+.portfolio-31::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* background: rgba(0, 0, 0, 0.55);  */
+}
+/* Portfolio 32 Section */
+.portfolio-32 {
+    height: 100vh;
+    background: url(/img/Jaylin\ Portfolio\ Images\ 2-07.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: var(--bar-height);
+    box-sizing: border-box;
+    background-size: cover;
+    z-index: 4;
+    position: relative;
+}
+
+.portfolio-32::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* background: rgba(0, 0, 0, 0.55);  */
+}
+
+/* Portfolio 33 Section */
+.portfolio-33 {
+    height: 100vh;
+    background: url(/img/Jaylin\ Portfolio\ Images\ 2-08.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: var(--bar-height);
+    box-sizing: border-box;
+    background-size: cover;
+    z-index: 4;
+    position: relative;
+}
+
+.portfolio-33::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    /* background: rgba(0, 0, 0, 0.55);  */
+}
+
 /* ************************* Case Study Pages ************************* */
 
 /* Case Study Section */
@@ -1335,7 +1745,64 @@ body {
     background-color: #5240d0;
 }
 
+.guide-color2-red {
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    border: 5px solid var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 1rem;
+    background-color: #ff0000;
+}
+
+.guide-color3-black {
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    border: 5px solid var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 1rem;
+    background-color: #000000;
+}
+
+.guide-color4-blue {
+    width: 100px;
+    height: 100px;
+    border-radius: 0%;
+    border: 5px solid var(--color-white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 0 1rem;
+    background-color: #0c89f0;
+}
+
 .guide-color1-purple h4 {
+    color: var(--color-white);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.guide-color2-red h4 {
+    color: var(--color-white);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.guide-color3-black h4 {
+    color: var(--color-white);
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.guide-color4-blue h4 {
     color: var(--color-white);
     font-size: 1.5rem;
     font-weight: 500;
