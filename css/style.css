@@ -187,10 +187,7 @@ body {
 }
 
 .bar__nav-toggle i {
-    background-color: var(--color-secondary);
-    color: transparent;
-    -webkit-background-clip: text;
-    background-clip: text;
+    color: var(--color-black);
     font-size: 3rem;
 }
 
@@ -346,7 +343,7 @@ body {
 
 /* ************************************************************** INFO SECTION **************************************************************************** */
 .info {
-    background-color: var(--color-black);
+    /* background-color: var(--color-black); */
 }
 
 .info-box {
@@ -359,13 +356,13 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 4rem 7rem;
+    margin: 0rem 7rem 8rem 7rem;
 }
 
 .info-item p {
     font-size: 1.5rem;
     font-weight: 300;
-    color: var(--color-white);
+    color: var(--color-black);
     text-align: left;
     line-height: 3rem;
 }
@@ -528,7 +525,7 @@ body {
 /* Showcase Section */
 
 .showcase {
-    padding: 12rem 0;
+    /* padding: 12rem 0; */
 }
 
 .showcase h2 {
@@ -2285,8 +2282,9 @@ body {
 }
 
 /* ******************************************************* MEDIA QUERIES *************************************************************** */
-/* Large devices (laptops/desktops, 106px and down) */
+/* Large devices (laptops/desktops, 1024px and down) */
 @media only screen and (max-width: 1024px) {
+
 }
 
 /* Medium devices (landscape tablets, ipad air, 820px and down) */
@@ -2294,315 +2292,198 @@ body {
     
     /* Header Section */
     .header {
-        height: 50vh;
+        /* background-image: url(); */
+        height: 40vh;
+        margin-top: 10rem;
     }
 
-    .header-box {
-        margin: 0 2rem;
+    .header-item {
+        margin-top: 9rem;
     }
 
-    .header-button {
-        padding-bottom: 4rem;
+    /* Showcase Section */
+
+
+    /* Portfolio Section */
+
+    .portfolio {   
+        padding: 12rem 8rem 0rem 8rem;
     }
 
-    .header-text h1 {
-        font-size: 6rem;
+    /* Services Section */
+    .services {
+        padding: 6rem
+    }
+
+    .services-item {
         text-align: center;
-        margin-bottom: 3rem;
     }
 
-    .nav {
-        background: var(--color-light-grey);
+    /* Newsletter Section */
+    .newsletter {
+        padding: 2rem 8rem 12rem 8rem;
     }
 
-    .bar__nav-toggle i {
-        color: var(--color-dark-grey);
-    }
-
-    .nav__link {
-        color: var(--color-dark-grey);
-        /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
-    }
-
-    .nav__link:nth-child(6) {
-        border-bottom: none;
-    }
-    
-    .nav .btn-purple {
-        margin: auto;
-        text-align: center;
-        margin-top: 2rem;
-        padding: 12.5px 20px;
-    }
-
-    .nav .btn-transparent {
-        margin: auto;
-        text-align: center;
-        margin-top: .5rem;
-        padding: 12.5px 20px;
-    }
-
-    /* Reviews Section */
-    .reviews {
-        height: 80vh;
-        padding: 4rem 4rem;
-    }
-    .reviews-box {
-        flex-direction: column;
-    }
-    
-    .reviews-textbox {
-        flex-direction: row;
-    }
-    
-    .reviews-card {
-        width: 32rem;
-        margin: 0 2rem 12rem 2rem;
-    }
-
-    /* Web Section */
-    .web {
-        padding: 12rem 0rem;
-    }
-
-    /* Footer Section */
-    .footer-container {
-        flex-direction: column;
-    }
-
-    .footer-box {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .footer-box-company {
-        margin-bottom: 2rem;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .footer-box-company p {
-        text-align: center;
-        padding-right: 12rem;
-        padding-left: 12rem;
-    }
 }
+
 
 /* Extra small devices (small tablets, ipad mini, 768px and down) */
 @media only screen and (max-width: 768px) {
-    
-    /* Header Section */
-    .header {
-        height: 60vh;
+
+    /* Services Section */
+    .services {
+        padding: 3rem;
     }
 
-    .header-box {
-        margin: 0 4rem;
-    }
-
-    /* Reviews Section */
-    .reviews {
-        height: 100vh;
-        padding: 10rem 4rem;
-    }
-
-    .reviews-textbox {
-        margin-bottom: 3rem;
-    }
-
-    .reviews-card {
-        width: 28rem;
-        margin: 0 2rem 8rem 2rem;
-        box-shadow: 0 .5rem .5rem rgb(153 153 153 / 15%);
-    }
 }
+
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
 
+    h2 {
+        font-size: 4rem;
+    }
+
+    h4 {
+        font-size: 2rem;
+    }
+
     /* Header Section */
     .header {
-        height: 90vh;
+        height: 25vh;
     }
 
-    .header-box {
-        margin: 0 2rem;
+    .header-titles {
+        display: none;
     }
 
-    .header-text h1 {
-        font-size: 4rem;
-        text-align: center;
-        margin-bottom: 3rem;
+    .header-contact {
+        display: none;
     }
 
-    .header-text h4 {
-        text-align: center;
-    }
-
-    .header-image img {
-        width: 315px;
-    }
-
-    .header-item .input {
-        width: 30rem;
-        height: 5.5rem;
-        font-size: 1rem;
-    }
-
-    .header-item .btn-submit {
-        width: 12rem;
-        height: 5.5rem;
-        font-size: 1rem;
-    }
-
-    .nav {
-        background: var(--color-light-grey);
-    }
-
-    .bar__nav-toggle i {
-        color: var(--color-dark-grey);
-    }
-
-    .nav__link {
-        color: var(--color-dark-grey);
-        /* border-bottom: 1px solid rgba(0, 0, 0, 0.1); */
-    }
-
-    .nav__link:nth-child(6) {
-        border-bottom: none;
+    /* About Section */
+    .about {
+        padding: 12rem 8rem 6rem 8rem;
     }
     
-    .nav .btn-purple {
-        margin: auto;
-        text-align: center;
-        margin-top: 2rem;
-        padding: 12.5px 20px;
-    }
-
-    .nav .btn-transparent {
-        margin: auto;
-        text-align: center;
-        margin-top: .5rem;
-        padding: 12.5px 20px;
-    }
-
-    /* Web Section */
-    .web {
-        padding: 10rem 2rem;
-    }
-    .web-box {
-        padding: 0;
-    }
-
-    .web-box p {
-        padding: 0;
-    }
-
-    /* Reviews Section */
-    .reviews {
-        height: auto;
-        padding: 10rem 4rem 10rem 4rem;
-    }
-    .reviews-box {
-        flex-direction: column;
-    }
-
-    .reviews-textbox {
-        flex-direction: column;
-    }
-
-    .reviews-card {
-        width: 28rem;
-        margin: 0 2rem 8rem 2rem;
-        box-shadow: 0 .5rem .5rem rgb(153 153 153 / 15%);
-    }
-
-    .reviews-box {
-        margin: 0 2rem;
-    }
-
-    .reviews-text h1 {
+    .about-title h2 {
         font-size: 4rem;
-        text-align: center;
-        margin-bottom: 3rem;
     }
 
-    .reviews-text h4 {
-        text-align: center;
+    .about-title h4 {
+        font-size: 2rem;
     }
 
-    .reviews-image img {
-        width: 285px;
-    }
-
-    .reviews-item .input {
-        width: 30rem;
-        height: 5.5rem;
-        font-size: 1rem;
-    }
-
-    .reviews-item .btn-submit {
-        width: 12rem;
-        height: 5.5rem;
-        font-size: 1rem;
-    }
-
-    /* Footer Section */
-    .footer-container {
+    .about-box {
         flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .about-item {
+        margin-bottom: 4rem;
+    }
+
+    .about-item img {
+        height: 20px;
+        width: auto;
+    }
+
+    /* Info Section */
+    .info-box {
+        flex-direction: column;
+        margin-bottom: 4rem;
+        margin
+    }
+    
+    .info-item {
+        margin: 2rem 4rem;
+    }
+
+    /* Portfolio Section */
+    .portfolio {
+        padding: 12rem 8rem 6rem 8rem;
+    }
+    
+    .portfolio-title h2 {
+        font-size: 4rem;
+    }
+
+    .portfolio-title h4 {
+        font-size: 2rem;
+    }
+
+    .portfolio-box {
+        flex-direction: column;
+        margin-bottom: 2rem;
+    }
+
+    .portfolio-item {
+        margin-bottom: 4rem;
+    }
+
+    .portfolio-item img {
+        height: 20px;
+        width: auto;
+    }
+
+    .portfolio-title p {
+        text-align: center;
+    }
+
+    /* Services Section */
+    .services {
+        margin: 5rem;
+    }
+
+    .services h2 {
+        font-size: 4rem;
+    }
+
+    .services h4 {
+        font-size: 2rem;
+    }
+
+    .services-item a {
+        font-size: 3rem;
+    }
+
+    /* Newsletter Section */
+    .newsletter {
+        padding: 4rem 4rem 12rem 4rem;
+    }
+
+    .newsletter-item .input {
+        width: 34rem;
+    }
+
+    /* Contact Section */
+    .contact {
+        padding: 12rem 4rem;
+    }
+
+    .contact-form .input {
+        width: 30rem;
     }
 
     .footer-box {
-        justify-content: center;
-        align-items: center;
+        flex-direction: column;
     }
 
     .footer-box-company {
-        margin-bottom: 2rem;
-        display: flex;
+        flex: 1;
         flex-direction: column;
-        justify-content: center;
+        display: flex;
         align-items: center;
-    }
-
-    .footer-box-company p {
-        text-align: center;
-        padding-right: 2rem;
-        padding-left: 2rem;
-    }
-
-    .footer-contact {
-        width: 33.5rem;
-        height: 50rem;
+        justify-content: center;
         margin-bottom: 3rem;
     }
-
-    .footer-map {
-        margin-bottom: 2rem;
+    .footer-box-company p {
+        padding: 0 4rem;
+        text-align: center;
     }
 
-    .footer-map h3 {
-        margin-bottom: 1rem;
+    .footer-box-socials {
+        margin: 3rem 0;
     }
-
-    .footer-info {
-        margin-bottom: 2rem;
-    }
-
-    .footer-info h3 {
-        margin-bottom: 1rem;
-    }
-
-    .footer-socials {
-        margin-bottom: 2rem;
-    }
-
-    .footer-socials h3 {
-        margin-bottom: 1rem;
-    }
-
 }
