@@ -2292,22 +2292,102 @@ body {
     
     /* Header Section */
     .header {
-        /* background-image: url(); */
-        height: 40vh;
-        margin-top: 10rem;
+        background-image: url(/img/Vision\ 3\ Ipad\ Air-01.png);
+        height: 100vh;
+        /* margin-top: 1rem; */
     }
 
     .header-item {
         margin-top: 9rem;
+        margin-bottom: 8rem;
     }
 
     /* Showcase Section */
+    
+    .showcase-item-1 {
+        background-image: url(/img/Case\ Study\ Home\ Images\ Ipad-01.png);
+    }
 
+    .showcase-item-2 {
+        background-image: url(/img/Case\ Study\ Home\ Images\ Ipad-02.png);
+    }
+
+    .showcase-item-3 {
+        background-image: url(/img/Case\ Study\ Home\ Images\ Ipad-03.png);
+    }
+
+    .showcase-item-4 {
+        background-image: url(/img/Case\ Study\ Home\ Images\ Ipad-04.png);
+    }
 
     /* Portfolio Section */
 
     .portfolio {   
         padding: 12rem 8rem 0rem 8rem;
+    }
+
+    .portfolio-18 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ Ipad-01.png);
+    }
+
+    .portfolio-19 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ Ipad-02.png);
+    }
+
+    .portfolio-20 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ Ipad-03.png);
+    }
+
+    .portfolio-21 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ Ipad-04.png);
+    }
+
+    .portfolio-22 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ Ipad-05.png);
+    }
+
+    .portfolio-23 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ Ipad-06.png);
+    }
+
+    .portfolio-24 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ Ipad-07.png);
+    }
+
+    .portfolio-25 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ Ipad-08.png);
+    }
+
+    .portfolio-26 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ Ipad-09.png);
+    }
+
+    .portfolio-27 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ Ipad-10.png);
+    }
+
+    .portfolio-28 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ Ipad-11.png);
+    }
+
+    .portfolio-29 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ Ipad-12.png);
+    }
+
+    .portfolio-30 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ Ipad-13.png);
+    }
+
+    .portfolio-31 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ Ipad-14.png);
+    }
+
+    .portfolio-32 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ Ipad-15.png);
+    }
+
+    .portfolio-33 {
+        display: none;
     }
 
     /* Services Section */
@@ -2335,6 +2415,11 @@ body {
         padding: 3rem;
     }
 
+    /* Showcase Section */
+    .showcase-item-4 {
+        background-image: url(/img/Case\ Study\ Home\ Mini-01.png);
+    }
+
 }
 
 
@@ -2351,7 +2436,9 @@ body {
 
     /* Header Section */
     .header {
-        height: 25vh;
+        background-image: url(/img/Vision\ 3\ iPhone-01.png);
+        height: 100vh;
+        /* margin-top: 1rem; */
     }
 
     .header-titles {
@@ -2393,9 +2480,25 @@ body {
     .info-box {
         flex-direction: column;
         margin-bottom: 4rem;
-        margin
     }
     
+    /* Showcase Section */
+    .showcase-item-1 {
+        background-image: url(/img/Case\ Study\ Home\ iPhone-01.png);
+    }
+
+    .showcase-item-2 {
+        background-image: url(/img/Case\ Study\ Home\ iPhone-02.png);
+    }
+
+    .showcase-item-3 {
+        background-image: url(/img/Case\ Study\ Home\ iPhone-03.png);
+    }
+
+    .showcase-item-4 {
+        background-image: url(/img/Case\ Study\ Home\ iPhone-04.png);
+    }
+
     .info-item {
         margin: 2rem 4rem;
     }
@@ -2429,6 +2532,70 @@ body {
 
     .portfolio-title p {
         text-align: center;
+    }
+
+    .portfolio-18 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ iPhone-01.png);
+    }
+
+    .portfolio-19 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ iPhone-02.png);
+    }
+
+    .portfolio-20 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ iPhone-03.png);
+    }
+
+    .portfolio-21 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ iPhone-04.png);
+    }
+
+    .portfolio-22 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ iPhone-05.png);
+    }
+
+    .portfolio-23 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ iPhone-06.png);
+    }
+
+    .portfolio-24 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ iPhone-07.png);
+    }
+
+    .portfolio-25 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ iPhone-08.png);
+    }
+
+    .portfolio-26 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ iPhone-09.png);
+    }
+
+    .portfolio-27 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ iPhone-10.png);
+    }
+
+    .portfolio-28 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ iPhone-11.png);
+    }
+
+    .portfolio-29 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ iPhone-12.png);
+    }
+
+    .portfolio-30 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ iPhone-13.png);
+    }
+
+    .portfolio-31 {
+        background-image: url(/img/Jaylin\ Portfolio\ Images\ iPhone-14.png);
+    }
+
+    .portfolio-32 {
+        display: none;
+    }
+
+    .portfolio-33 {
+        display: none;
     }
 
     /* Services Section */
