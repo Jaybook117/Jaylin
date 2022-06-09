@@ -2404,6 +2404,59 @@ body {
         padding: 2rem 8rem 12rem 8rem;
     }
 
+    /* Case Study Page */
+   
+    .case-box {
+        flex-direction: column;
+    }
+
+    .case-image-text {
+        margin-bottom: 3rem;
+    }
+
+    .case-image-text h2 {
+        text-align: center;
+    }
+
+    .case-image-text h4 {
+        text-align: center;
+    }
+
+    .case-image-text p {
+        text-align: center;
+    }
+
+    .case-image img {
+        margin-bottom: 4rem;
+    }
+
+    /* Guide Section */
+
+    .guide-box {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .guide-style {
+        margin-bottom: 8rem;
+    }
+
+    .guide-style h2 {
+        margin-bottom: 4rem;
+    }
+
+    .guide-font {
+        text-align: center;
+    }
+
+    .guide-weight {
+        align-items: center;
+        justify-content: center;
+        display: flex;
+    }
+
 }
 
 
@@ -2418,6 +2471,15 @@ body {
     /* Showcase Section */
     .showcase-item-4 {
         background-image: url(/img/Case\ Study\ Home\ Mini-01.png);
+    }
+
+    /* Case Study Page */
+    .case-item {
+        width: 22rem;
+    }
+
+    .case-item img {
+        width: 227px;
     }
 
 }
@@ -2613,6 +2675,32 @@ body {
 
     .services-item a {
         font-size: 3rem;
+    }
+
+    /* Case Study Page  */
+    .case {
+        padding: 12rem 2rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .guide {
+        padding: 12rem 2rem;
+        height: 150vh;
+    }
+
+    .guide h2 {
+        font-size: 4rem;
+    }
+
+    .guide-color-box {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .guide-font {
+        margin-bottom: 3rem;
     }
 
     /* Newsletter Section */
